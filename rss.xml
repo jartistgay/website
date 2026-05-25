@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>J's Blog</title>
+	<id>https://jartist.gay</id>
+	<link rel="alternate" href="https://jartist.gay"/>
+	<link rel="self" href="https://jartist.gay/rss"/>
+	<updated>2026-05-24T20:00:00-07:00</updated>
+	<author>
+		<name>J</name>
+	</author>
+	<entry>
+		<title>may 24 '26</title>
+		<link rel="alternate" type="text/html" href="https://jartist.gay"/>
+		<id>{{ENTRY.PERMALINK}}</id>
+		<published>{{ENTRY.FIRST_POST_TIME in RFC3339 format}}</published>
+		<updated>{{ENTRY.LAST_UPDATE_TIME in RFC3339 format}}</updated>
+		<content type="html">{{ENTRY.HTML}}</content>
+	</entry>
+</feed>
