@@ -1,19 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-	<title>J's Blog</title>
-	<id>https://jartist.gay</id>
-	<link rel="alternate" href="https://jartist.gay"/>
-	<link rel="self" href="https://jartist.gay/rss"/>
-	<updated>2026-05-24T20:00:00-07:00</updated>
-	<author>
-		<name>J</name>
-	</author>
-	<entry>
-		<title>may 24 '26</title>
-		<link rel="alternate" type="text/html" href="https://jartist.gay"/>
-		<id>{{ENTRY.PERMALINK}}</id>
-		<published>{{ENTRY.FIRST_POST_TIME in RFC3339 format}}</published>
-		<updated>{{ENTRY.LAST_UPDATE_TIME in RFC3339 format}}</updated>
-		<content type="html">{{ENTRY.HTML}}</content>
-	</entry>
-</feed>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>J's Blog</title>
+  <link>https://jartist.gay/</link>
+  <description>A blog and art archive.</description>
+  <language>en-us</language>
+  
+  <image>
+  <url>https://files.catbox.moe/orzozl.png</url>
+  <title>Skull</title>
+  <link>https://jartist.gay/</link>
+</image>
+  
+  <item>
+    <title>Update</title>
+    <link>https://jartist.gay/</link>
+    <description>Sticky reviews completed, RSS feed up.</description>
+    <pubDate>Sun, 24 May 2026 23:00:00 PST</pubDate>
+  </item>
+
+  <item>
+    <title>Update</title>
+    <link>https://jartist.gay/</link>
+    <description>Custom hosting, visual changes.</description>
+    <pubDate>Fri, 22 May 2026 2:00:00 PST</pubDate>
+  </item>
+
+</channel>
+
+</rss>
