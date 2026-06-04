@@ -1,0 +1,322 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>favourites</title>
+<link rel="shortcut icon" href="https://files.catbox.moe/orzozl.png"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+body {
+    background: #fefcf9;
+    color: #68625a;
+    text-shadow:0px 0px 0px #bbb;
+    font-family: 'Crimson Text', Verdana, Arial;
+    font-size: 13px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: justify;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #ddd;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-track {
+    background: #f8f8f8;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 3px;
+}
+
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+header {
+    text-align: center;
+    padding: 16px 8px;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+}
+.site-name {
+    margin-top: 10px;
+    font: 28px 'UnifrakturCook';
+    letter-spacing: 3px;
+    color:  #927a72;
+}
+.slogan {
+    font:italic 12px Georgia, Arial;
+    margin-top: 5px;
+    color:#999;
+}
+.info {
+    font:italic 12px Georgia, Arial;
+    margin-bottom: 5px;
+    color:#999;
+    margin-top: 7px;
+}
+
+nav {
+    text-align: center;
+    padding: 6px 4px;
+    margin-bottom: 10px;
+}
+nav a {
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 6px;
+    margin-right: 4px;
+    font:italic 12px georgia, arial;
+    color:#333;
+    border-radius:5px;
+}
+nav a img {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+#content {
+    display: flex;
+    gap: 10px;
+    border-top: 1px dotted #999;
+    padding-top: 10px;
+}
+
+.c2 {
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.sidebar {
+    width: 150px;
+    padding: 4px; 
+}
+
+.sidebar > div {
+    margin-bottom: 8px;
+}
+
+.title {
+    font: 16px 'UnifrakturCook';
+    margin-bottom: 4px;
+    color:#b9a588;
+}
+
+.divider {
+    height: 0;
+    border-bottom: 1px dotted #999;
+    margin: 6px 0;
+}
+
+mainl {
+    flex: 1;
+    padding: 8px;
+    padding-right: 10px;
+    image-rendering: pixelated;
+    border-right: 1px dotted #999;
+}
+
+mainr {
+    flex: 1;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.main-title {
+    color:#777;
+    font: 20px 'UnifrakturCook';
+    text-transform: lowercase;
+    margin: 0 0 6px;
+    letter-spacing: 2px;
+    line-height: 18px;
+}
+
+.subtitle {
+    color:#777;
+    text-transform: lowercase;
+    margin: 0 0 6px;
+    letter-spacing: 2px;
+    line-height: 18px;
+}
+
+footer {
+    border-top: 1px dotted #999;
+    text-align: center;
+    padding: 22px 8px;
+    font-size: 12px;
+}
+
+@media(max-width: 600px){
+    #content {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .sidebar {
+        width: auto;
+        padding: 4px;
+    }
+    main {
+        border-left: none;
+        border-right: none;
+        padding: 8px;
+    }
+    nav {
+        font-size: 10px;
+        padding: 6px 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin: 4px 0;
+        width: 100%;
+        justify-content: center;
+    }
+}
+</style>
+</head>
+
+
+<body>
+    
+    
+<div id="container">
+<header>
+    <div class="site-name"><img src="https://files.catbox.moe/xp563g.gif" alt="x"> favourites <img src="https://files.catbox.moe/xp563g.gif" alt="x"></div>
+</header>
+
+<nav>
+    <a href="https://jartist.gay/"> home</a>
+    <a href="https://jartist.gay/about"> about</a>
+    <a href="https://jartist.gay/blog"> blog</a>
+    <a href="https://jartist.gay/art"> art</a>
+    <a href="https://jartist.gay/rss.xml"> rss</a>
+</nav>
+
+    <div class="main-title">overview</div>
+    <br>Mask was done as a challenge to myself: one page a day, every day. Thirty minutes per page. It was a lot of fun, and definitely helped me improve at my art. Unfortunately, while I do have storyboards for the rest of the chapter, I don't have any immediate plans to continue working on this story. <br><br>
+    Mask is read right to left, top to bottom. Alt text is provided for clarity. As always, click for a pixel-perfect image host. Due to technical reasons, the images are displayed at 800 width, which may present issues for mobile or certain displays. Apologies, but there's nothing I can do about this without making the text less readable.
+
+<div id="content">
+
+
+
+<mainl>
+    
+        <div class="main-title">books</div>
+1. Godfeels | Sarah Zedig<br>
+2. The Worthing Saga | Orson Scott Card<br>
+3. The Stormlight Archive | Brandon Sanderson<br>
+4. The Locked Tomb | Tamsyn Muir<br>
+5. We Have Always Lived in the Castle | Shirley Jackson<br>
+6. Worm | Wildbow<br>
+7. Imperial Radch | Ann Leckie<br>
+8. The Masquerade | Seth Dickenson<br>
+9. The Magicians Trilogy | Lev Grossman<br>
+10. House of Leaves | Mark Z. Danielewski<br>
+11. The Murderbot Diaries | Martha Wells<br>
+12. Autonomous | Annalee Newitz<br>
+13. Piranesi | Susanna Clarke<br>
+14. The Future of Another Timeline | Annalee Newitz<br>
+15. Ender's Game | Orson Scott Card<br>
+16. The Lathe of Heaven | Ursula K. Le Guin<br>
+17. The Catcher in the Rye | J.D. Salinger<br>
+18. Rosencrantz and Guildenstern are Dead | Tom Stoppard<br>
+<br>
+    <div class="main-title">podcasts</div>
+1. Ars Paradoxica<br>
+2. TAZ: Balance<br>
+3. Wolf 359<br>
+4. Eidolon Pop/Rock<br>
+5. The Silt Verses<br>
+6. Eidolon Disco/Ska<br>
+7. TAZ: Ethersea<br>
+8. Second Star to the Left<br>
+9. I Am in Eskew<br>
+10. The Empty Bowl<br>
+11. The Magnus Archives<br>
+12. Til Death Do Us Blart<br>
+13. Inchworm<br>
+14. TAZ: Steeplechase<br>
+15. SURVEY_PROGRAM<br>
+16. Perfectly Generic Podcast<br>
+17. TAZ: Amnesty<br>
+
+
+
+</mainl>
+
+<mainr>
+    
+    <div class="main-title">comics</div>
+1. Homestuck | Andrew Hussie<br>
+2. On a Sunbeam | Tillie Walden <br>
+3. The Vapors | Ben Saint<br>
+4. The Sculptor | Scott McCloud<br>
+5. Kill 6 Billion Demons | Abbadon<br>
+6. O Human Star | Blue Delliquanti<br>
+7. Homestuck^2 | Hs2 team<br>
+8. Nuzlocke | Nick Franco<br>
+9. Doomboy | Tony Sandoval<br>
+10. The Champion | Ben Saint<br>
+11. Wonderstruck | Brian Selznick<br>
+12. The Adventure Zone | Carey Pietsch<br>
+13. Animorphs | Chris Grine
+<br><br>
+    <div class="main-title">games</div>
+    1. Disco Elysium<br>
+    2. What Remains of Edith Finch<br>
+    3. Deltarune<br>
+    4. Slay the Spire II<br>
+    5. PMD: Explorers of Sky<br>
+    6. of the Devil<br>
+    7. Signalis<br>
+    8. Heat Signature<br>
+    9. Enter the Gungeon<br>
+    10. The Binding of Isaac<br>
+    11. Pokemon White<br>
+    12. Factorio<br>
+    13. Bloodborne<br>
+    14. Balatro<br>
+    15. Elden Ring<br>
+    16. Celeste<br>
+    17. Slay the Spire<br>
+    18. Fallout New Vegas<br>
+    19. Dark Souls I<br>
+    20. Deadbolt<br>
+    
+</mainr>
+
+</div>
+
+
+<!-- Do not remove the credits if you use this free layout! thank you. -->
+
+<footer>
+Layout made by <a href="https://itinerae.org" target="_blank">Itinerae</a>.
+</footer>
+</div>
+</body>
+</html>
+
+    
